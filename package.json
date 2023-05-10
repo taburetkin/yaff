@@ -1,0 +1,20 @@
+{
+  "name": "yaffjs",
+  "version": "1.0.0",
+  "description": "yaff is a front-end framework shiped with separate little packages for building event-driven front-end applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "yaff",
+    "front-end",
+    "framework",
+    "events",
+    "routing",
+    "js",
+    "event-driven"
+  ],
+  "author": "dimtabu <dima.taburetkin@gmail.com>",
+  "license": "ISC"
+}

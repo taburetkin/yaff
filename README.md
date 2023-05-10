@@ -1,4 +1,6 @@
 # yaff - Yet Another Front-end Framework
+View, Model, Collection, Events and routing - just all you need to build modern app
+
 **packages**:  
 
 ## [yaff-events](https://github.com/taburetkin/yaff-events) (✅published)
@@ -57,7 +59,9 @@ peer dependecies on: `yaff-core`, `yaff-events`
 ```js
 
 import { Model } from 'yaff-model';
+
 const model = new Model({ name: 'Peter', age: 18 });
+
 model.set('age', 19);
 model.get('age'); // 19
 
@@ -73,7 +77,7 @@ peer dependecies on: `yaff-core`, `yaff-events`
 import { View, attachView } from 'yaff-view';
 
 const view = new View({
-	template: () => '<h1>hello world!</h1>',
+  template: () => '<h1>hello world!</h1>',
 });
 attachView(view, document.body);
 
